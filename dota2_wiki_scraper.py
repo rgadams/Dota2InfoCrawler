@@ -310,7 +310,7 @@ def main():
             print("Retrieving Hero: " + hero_name)
             hero = get_hero(hero_name)
             heroes[hero_to_get['id']] = {
-                "name": hero_name,
+                "name": hero_to_get['name'],
                 "heroId": hero_to_get['id'],
                 "display_name": hero_to_get['localized_name'],
                 "data": hero
